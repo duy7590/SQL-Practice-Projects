@@ -4,6 +4,8 @@
 
 #
 *.sql linguist-detectable=true
+*.md linguist-detectable=true
+
 # The above will handle all files NOT found below
 #
 
