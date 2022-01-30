@@ -5,6 +5,9 @@
 #
 *.sql linguist-detectable=true
 *.md linguist-detectable=true
+*.sql linguist-language=sql
+
+
 
 # The above will handle all files NOT found below
 #
@@ -13,6 +16,9 @@
 ## Documents
 #
 *.sql linguist-detectable=true
+*.md linguist-detectable=true
+*.sql linguist-language=sql
+
 *.doc  diff=astextplain
 *.DOC  diff=astextplain
 *.docx diff=astextplain
@@ -34,6 +40,9 @@
 ## Binary files should be left untouched
 #
 *.sql linguist-detectable=true
+*.md linguist-detectable=true
+*.sql linguist-language=sql
+
 *.png binary
 *.jpg binary
 *.jpeg binary
@@ -112,6 +121,9 @@ web.config text
 # git config
 .gitattributes text
 .gitignore text
+*.sql linguist-detectable=true
+*.md linguist-detectable=true
+*.sql linguist-language=sql
 
 # code analysis config
 *.sql linguist-detectable=true
@@ -119,6 +131,9 @@ web.config text
 .jscsrc text
 .jshintignore text
 .csslintrc text
+*.sql linguist-detectable=true
+*.md linguist-detectable=true
+*.sql linguist-language=sql
 
 # misc config
 *.yaml text
@@ -133,3 +148,6 @@ web.config text
 *.md text
 LICENSE text
 AUTHORS text
+*.sql linguist-detectable=true
+*.md linguist-detectable=true
+*.sql linguist-language=sql
